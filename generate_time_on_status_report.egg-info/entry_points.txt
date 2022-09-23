@@ -1,0 +1,3 @@
+[console_scripts]
+generate_time_on_status_report = time_on_status:generate_report
+

@@ -1,0 +1,7 @@
+setup.py
+generate_time_on_status_report.egg-info/PKG-INFO
+generate_time_on_status_report.egg-info/SOURCES.txt
+generate_time_on_status_report.egg-info/dependency_links.txt
+generate_time_on_status_report.egg-info/entry_points.txt
+generate_time_on_status_report.egg-info/requires.txt
+generate_time_on_status_report.egg-info/top_level.txt
