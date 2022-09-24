@@ -99,7 +99,6 @@ def fetch_activity_logs(token, start, end):
 
         next_url = data['pages']['next']
         logs.extend(data['activity_logs'])
-    click.echo('finished fetching data')
     return logs
 
 def parse_away_logs(away_logs):
