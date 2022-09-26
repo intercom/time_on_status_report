@@ -1,5 +1,8 @@
 # Time on Status Report Generator
 
+## TL;DR
+https://www.loom.com/share/d29dd187672f49209d49970e51757dd6
+
 This is a small python program to query the Intercom API for the admin activity logs, and compile the time on each status for the individual teammates in the app.
 There are a few caveats with the data generated.
  - Because we infer the time on status from events, we can't know anything about the status of an admin until we see an event, so for all days in the range of days that you search for where an admin changed their status, their time on each status will be reported as 0.
@@ -7,6 +10,7 @@ There are a few caveats with the data generated.
 
 ## Installation
 This is configured as a python package.
+**WARNING:** I have done absolutely nothing to ensure this code is system agnostic or compatible with any version of python other than 3.10. I used pyenv to install python v3.10.3 and create a virtual environment into which I would install this package and it's dependecies. I'm using a Macbook Pro running macOS Monterey v12.6.
 ```
 cd time_on_status
 pip install .
